@@ -117,11 +117,16 @@ nav li{
     margin-top: 80px;
 }
 
+
+/*Estilização footer*/
 footer{
-    background-color: #000000;
+    background-image: url('../img/footer_back.jpg');
     display: flex;
     flex-direction: column;
     align-items: end;
+    background-size: cover; /* A imagem cobre a área */
+    background-position: center; /* Centraliza */
+    background-repeat: no-repeat; /* Não repete */
 }
 
 .logo_rodape{
@@ -146,6 +151,14 @@ footer{
     align-items: center;
     margin-right: 20px;
     
+    
+}
+.rodape_contato a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+        
 }
 
 
