@@ -26,6 +26,10 @@ nav{
     font-family: cursive; /*Deixa o texto como se fosse escrito em forma "cursiva"*/
     color: white;
 }
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
 .div_header{
     position: relative;
 }
